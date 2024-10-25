@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 15px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    color:palevioletred 
+}
+.img{
+    width: 50%;
+}
+.img img {
+    width: 50%;
+}
+/* Estilo menu */
+nav {
+    background-color: pink;
+    color: red;
+}
+nav ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+}
+nav ul li{
+    margin: 5px;
+}
+nav a ul{
+    color: aliceblue;
+    text-decoration: none;
+}
