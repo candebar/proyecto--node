@@ -20,6 +20,6 @@ app.set('views', path.join(__dirname, './views')) ; //Ruta de las vistas
 hbs.registerPartials(path.join(__dirname, './views', "partials")) ;
 
 
-// app.listen(port, () => {
-//     console.log(`Servidor escuchando en http://localhost:${port}`);
-// });
+app.listen(port, () => {
+    console.log(`Servidor escuchando en http://localhost:${port}`);
+});
